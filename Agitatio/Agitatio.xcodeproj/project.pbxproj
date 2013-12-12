@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C6D0E5A17EC911700976CDA /* AGScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0E5917EC911700976CDA /* AGScene.m */; };
+		5C6D0E5B17EC911700976CDA /* AGScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0E5917EC911700976CDA /* AGScene.m */; };
+		5CCF4B4017EB02390007E404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCF4B3F17EB02390007E404 /* Foundation.framework */; };
+		5CCF4B4517EB02390007E404 /* Agitatio.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CCF4B4417EB02390007E404 /* Agitatio.h */; };
+		5CCF4B4E17EB02390007E404 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCF4B4D17EB02390007E404 /* XCTest.framework */; };
+		5CCF4B4F17EB02390007E404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCF4B3F17EB02390007E404 /* Foundation.framework */; };
+		5CCF4B5117EB02390007E404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCF4B5017EB02390007E404 /* UIKit.framework */; };
+		5CCF4B5417EB02390007E404 /* libAgitatio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCF4B3C17EB02390007E404 /* libAgitatio.a */; };
+		5CCF4B5A17EB02390007E404 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CCF4B5817EB02390007E404 /* InfoPlist.strings */; };
+		5CCF4B5C17EB02390007E404 /* AgitatioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCF4B5B17EB02390007E404 /* AgitatioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CCF4B5217EB02390007E404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCF4B3417EB02390007E404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCF4B3B17EB02390007E404;
+			remoteInfo = Agitatio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CCF4B3A17EB02390007E404 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5CCF4B4517EB02390007E404 /* Agitatio.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C182A9817EB086D008F722E /* AGLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGLayer.h; sourceTree = "<group>"; };
+		5C6D0E5817EC911700976CDA /* AGScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGScene.h; sourceTree = "<group>"; };
+		5C6D0E5917EC911700976CDA /* AGScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGScene.m; sourceTree = "<group>"; };
+		5C6D0E5C17EC923900976CDA /* AGScene_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGScene_Protected.h; sourceTree = "<group>"; };
+		5CCF4B3C17EB02390007E404 /* libAgitatio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAgitatio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCF4B3F17EB02390007E404 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CCF4B4317EB02390007E404 /* Agitatio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Agitatio-Prefix.pch"; sourceTree = "<group>"; };
+		5CCF4B4417EB02390007E404 /* Agitatio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Agitatio.h; sourceTree = "<group>"; };
+		5CCF4B4C17EB02390007E404 /* AgitatioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgitatioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCF4B4D17EB02390007E404 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CCF4B5017EB02390007E404 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5CCF4B5717EB02390007E404 /* AgitatioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgitatioTests-Info.plist"; sourceTree = "<group>"; };
+		5CCF4B5917EB02390007E404 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CCF4B5B17EB02390007E404 /* AgitatioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgitatioTests.m; sourceTree = "<group>"; };
+		5CDE658A185A105900B6D69A /* AGMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGMath.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CCF4B3917EB02390007E404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCF4B4017EB02390007E404 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCF4B4917EB02390007E404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCF4B4E17EB02390007E404 /* XCTest.framework in Frameworks */,
+				5CCF4B5417EB02390007E404 /* libAgitatio.a in Frameworks */,
+				5CCF4B5117EB02390007E404 /* UIKit.framework in Frameworks */,
+				5CCF4B4F17EB02390007E404 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CCF4B3317EB02390007E404 = {
+			isa = PBXGroup;
+			children = (
+				5CCF4B4117EB02390007E404 /* Agitatio */,
+				5CCF4B5517EB02390007E404 /* AgitatioTests */,
+				5CCF4B3E17EB02390007E404 /* Frameworks */,
+				5CCF4B3D17EB02390007E404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CCF4B3D17EB02390007E404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CCF4B3C17EB02390007E404 /* libAgitatio.a */,
+				5CCF4B4C17EB02390007E404 /* AgitatioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CCF4B3E17EB02390007E404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CCF4B3F17EB02390007E404 /* Foundation.framework */,
+				5CCF4B4D17EB02390007E404 /* XCTest.framework */,
+				5CCF4B5017EB02390007E404 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CCF4B4117EB02390007E404 /* Agitatio */ = {
+			isa = PBXGroup;
+			children = (
+				5CCF4B4417EB02390007E404 /* Agitatio.h */,
+				5CDE658A185A105900B6D69A /* AGMath.h */,
+				5C182A9817EB086D008F722E /* AGLayer.h */,
+				5C6D0E5817EC911700976CDA /* AGScene.h */,
+				5C6D0E5917EC911700976CDA /* AGScene.m */,
+				5C6D0E5C17EC923900976CDA /* AGScene_Protected.h */,
+				5CCF4B4217EB02390007E404 /* Supporting Files */,
+			);
+			path = Agitatio;
+			sourceTree = "<group>";
+		};
+		5CCF4B4217EB02390007E404 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCF4B4317EB02390007E404 /* Agitatio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CCF4B5517EB02390007E404 /* AgitatioTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CCF4B5B17EB02390007E404 /* AgitatioTests.m */,
+				5CCF4B5617EB02390007E404 /* Supporting Files */,
+			);
+			path = AgitatioTests;
+			sourceTree = "<group>";
+		};
+		5CCF4B5617EB02390007E404 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCF4B5717EB02390007E404 /* AgitatioTests-Info.plist */,
+				5CCF4B5817EB02390007E404 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CCF4B3B17EB02390007E404 /* Agitatio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCF4B5F17EB02390007E404 /* Build configuration list for PBXNativeTarget "Agitatio" */;
+			buildPhases = (
+				5CCF4B3817EB02390007E404 /* Sources */,
+				5CCF4B3917EB02390007E404 /* Frameworks */,
+				5CCF4B3A17EB02390007E404 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Agitatio;
+			productName = Agitatio;
+			productReference = 5CCF4B3C17EB02390007E404 /* libAgitatio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5CCF4B4B17EB02390007E404 /* AgitatioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCF4B6217EB02390007E404 /* Build configuration list for PBXNativeTarget "AgitatioTests" */;
+			buildPhases = (
+				5CCF4B4817EB02390007E404 /* Sources */,
+				5CCF4B4917EB02390007E404 /* Frameworks */,
+				5CCF4B4A17EB02390007E404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CCF4B5317EB02390007E404 /* PBXTargetDependency */,
+			);
+			name = AgitatioTests;
+			productName = AgitatioTests;
+			productReference = 5CCF4B4C17EB02390007E404 /* AgitatioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CCF4B3417EB02390007E404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "K-Apps";
+			};
+			buildConfigurationList = 5CCF4B3717EB02390007E404 /* Build configuration list for PBXProject "Agitatio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CCF4B3317EB02390007E404;
+			productRefGroup = 5CCF4B3D17EB02390007E404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CCF4B3B17EB02390007E404 /* Agitatio */,
+				5CCF4B4B17EB02390007E404 /* AgitatioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CCF4B4A17EB02390007E404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCF4B5A17EB02390007E404 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CCF4B3817EB02390007E404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6D0E5A17EC911700976CDA /* AGScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCF4B4817EB02390007E404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6D0E5B17EC911700976CDA /* AGScene.m in Sources */,
+				5CCF4B5C17EB02390007E404 /* AgitatioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CCF4B5317EB02390007E404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCF4B3B17EB02390007E404 /* Agitatio */;
+			targetProxy = 5CCF4B5217EB02390007E404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CCF4B5817EB02390007E404 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCF4B5917EB02390007E404 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CCF4B5D17EB02390007E404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CCF4B5E17EB02390007E404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CCF4B6017EB02390007E404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Agitatio.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Agitatio/Agitatio-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CCF4B6117EB02390007E404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Agitatio.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Agitatio/Agitatio-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CCF4B6317EB02390007E404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Agitatio/Agitatio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AgitatioTests/AgitatioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CCF4B6417EB02390007E404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Agitatio/Agitatio-Prefix.pch";
+				INFOPLIST_FILE = "AgitatioTests/AgitatioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CCF4B3717EB02390007E404 /* Build configuration list for PBXProject "Agitatio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCF4B5D17EB02390007E404 /* Debug */,
+				5CCF4B5E17EB02390007E404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCF4B5F17EB02390007E404 /* Build configuration list for PBXNativeTarget "Agitatio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCF4B6017EB02390007E404 /* Debug */,
+				5CCF4B6117EB02390007E404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCF4B6217EB02390007E404 /* Build configuration list for PBXNativeTarget "AgitatioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCF4B6317EB02390007E404 /* Debug */,
+				5CCF4B6417EB02390007E404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CCF4B3417EB02390007E404 /* Project object */;
+}
